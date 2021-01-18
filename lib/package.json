@@ -1,0 +1,26 @@
+{
+  "name": "discord-sender",
+  "version": "1.0.8",
+  "description": "Discord Sender API Wrapper",
+  "main": "index.js",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/botstudios/discordsender"
+  },
+
+  "homepage": "https://github.com/botstudios/discordsender#readme",
+  "keywords": [
+    "discord",
+    "discord-sender",
+    "brawley",
+    "botstudios",
+    "webhook",
+    "discordapp",
+    "sender"
+  ],
+  "runkitExampleFilename": "./examples/webhook.js",
+  "unpkg": "./index.js",
+  "author": "JoeLeeOfficial <tojoeleeofficial@gmail.com>",
+  "license": "Apache-2.0"
+}
