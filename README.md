@@ -20,6 +20,7 @@ A Discord Sender API Wrapper
 ## Install 
 
 ``` npm i discord-sender ```
+
 ``` const sender = require('discord-sender')```
 
 
