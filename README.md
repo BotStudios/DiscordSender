@@ -23,11 +23,12 @@ A Discord Sender API Wrapper
 
 ``` const sender = require('discord-sender')```
 
-
+Or Use Unpkg's CDN :
+`<script src="https://unpkg.com/discord-sender"></script>`
 
 ## Table of contents
 
-
+- [What's New ?](#what's-new-?)
 - [Install](#install)
 - [Usage](#usage)
 - [Credit](#credit)
@@ -36,19 +37,39 @@ A Discord Sender API Wrapper
 
 
 
+### What's New ?
 
+- 19 Jan 2021
+  - Added New Feature [Send Message Thru A Random Bot - Amber](#Send-Message-Thru-A-Random-Bot).
+  - Changed webhook structures.
+  
+-------------
 ## Usage 
 
-Send Discord Webhook 
+### Send Discord Webhook 
 
 ```
 const sender = require('discord-sender');
 
-sender.webhook('WEBHOOK_URL');
-sender.webhook.value('YOUR_MESSAGE');
-sender.name('DISCORD_WEBHOOK_NAME');
+sender.webhook('DISCORD_WEBHOOK_URL', 'MESSAGE')
 
 ```
+
+#### Optional
+Customize Webhook Name And Webhook Avatar
+```
+sender.avatarURL('AVATAR_URL'); //OPTIONAL
+sender.name('WEBHOOK_NAME'); //OPTIONAL
+```
+
+### Send Message Thru A Random Bot [( BETA )](https://github.com/botstudios/DiscordSender)
+Send Messages Using A Random Bot [Amber](https://discord.is-a.dev/bot)
+> Make Sure To Add The Bot Before Using It.
+
+```
+sender.bot('CHANNEL_ID', 'YOUR_MESSAGE');
+```
+
 
 ## Credit
 
@@ -56,7 +77,7 @@ Made By [@joeleeofficial](https://github.com/joeleeofficial)
 
 Managed By [@BotStudios](https://studios.js.org)
 
-Made Using [A Random Bot](https://discord.is-a.dev)
+Made With [A Random Bot](https://discord.is-a.dev)
 
 - More Features Coming Soon
 
