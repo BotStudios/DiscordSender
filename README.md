@@ -1,4 +1,4 @@
-# Discord sender
+# Discord Sender
 
 A Discord Sender API Wrapper 
 
