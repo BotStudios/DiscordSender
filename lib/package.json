@@ -1,14 +1,13 @@
 {
   "name": "discord-sender",
-  "version": "1.0.8",
+  "version": "1.2.9",
   "description": "Discord Sender API Wrapper",
   "main": "index.js",
-
+  "test": "exit 0",
   "repository": {
     "type": "git",
     "url": "https://github.com/botstudios/discordsender"
   },
-
   "homepage": "https://github.com/botstudios/discordsender#readme",
   "keywords": [
     "discord",
@@ -19,8 +18,13 @@
     "discordapp",
     "sender"
   ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "clyde.js": "^1.0.8",
+    "node-fetch": "^2.6.1"
+  },
   "runkitExampleFilename": "./examples/webhook.js",
-  "unpkg": "./index.js",
+  "unpkg": "./web/discord-sender.min.js",
   "author": "JoeLeeOfficial <tojoeleeofficial@gmail.com>",
   "license": "Apache-2.0"
 }
