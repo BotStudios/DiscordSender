@@ -1,6 +1,6 @@
 {
   "name": "discord-sender",
-  "version": "1.2.9",
+  "version": "latest",
   "description": "Discord Sender API Wrapper",
   "main": "index.js",
   "test": "exit 0",
