@@ -1,4 +1,4 @@
-# Discord Sender
+# Discord sender
 
 A Discord Sender API Wrapper 
 
@@ -17,14 +17,25 @@ A Discord Sender API Wrapper
 </p>
 
 
+
 ## Install 
 
 ``` npm i discord-sender ```
 
 ``` const sender = require('discord-sender')```
 
-Or Use Unpkg's CDN :
-`<script src="https://unpkg.com/discord-sender"></script>`
+##### Or Use Unpkg's CDN :
+
+```<script src="https://unpkg.com/discord-sender@latest/web/discord-sender.min.js"></script>```
+
+###### Example Usage
+
+```
+webhook('WEBHOOK_LINK', 'MESSAGE', 'USERNAME // OPTIONAL', 'AVATAR_URL // OPTIONAL')
+
+const discordSender = '{"title":"Discord-Sender", "url":"https://unpkg.com/discord-sender","description":"made using discord-sender","author":"discord-sender-npm","authorUrl":"https://discord.is-a.dev","authorAvatar":"Avatar_URL"}'
+embed('CHANNEL_ID', discordSender)
+```
 
 ## Table of contents
 
@@ -39,9 +50,8 @@ Or Use Unpkg's CDN :
 
 ### What's New ?
 
-- 19 Jan 2021
-  - Added New Feature [Send Message Thru A Random Bot - Amber](#Send-Message-Thru-A-Random-Bot).
-  - Changed webhook structures.
+- 14  May 2021
+ - Changed API Host name
   
 -------------
 ## Usage 
